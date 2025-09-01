@@ -1,0 +1,99 @@
+.bg-success{
+    background-color: #009440 !important;
+}
+
+
+
+/* Seção principal (hero) */
+.lover {
+  background: linear-gradient(135deg, #f9f9f9, #ececec);
+  padding: 80px 40px; /* mais espaço no PC */
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 1200px; /* mais largo no desktop */
+}
+
+/* Título */
+.lover h1 {
+  color: blueviolet;
+  font-size: 3rem; /* maior no PC */
+  margin-bottom: 25px;
+}
+
+/* Texto */
+.lover .textu {
+  font-size: 1.4rem; /* mais destacado */
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  line-height: 1.8;
+}
+
+/* Imagem */
+.lover .imagi {
+  width: 100%;
+  max-width: 700px; /* imagem maior no PC */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+  .lover {
+    padding: 60px 30px;
+    max-width: 1000px;
+  }
+
+  .lover h1 {
+    font-size: 2.4rem;
+  }
+
+  .lover .textu {
+    font-size: 1.2rem;
+  }
+
+  .lover .imagi {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lover {
+    padding: 40px 20px;
+    margin: 20px auto;
+  }
+
+  .lover h1 {
+    font-size: 2rem;
+  }
+
+  .lover .textu {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .lover .imagi {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .lover {
+    padding: 30px 15px;
+  }
+
+  .lover h1 {
+    font-size: 1.6rem;
+  }
+
+  .lover .textu {
+    font-size: 0.95rem;
+  }
+
+  .lover .imagi {
+    max-width: 100%;
+  }
+}
